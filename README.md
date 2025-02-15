@@ -36,7 +36,7 @@ docker compose up
 >[!IMPORTANT]
 >Lembre de estar no diretório raiz do projeto ao executar o comando acima.
 >
-Ao finalizar a operação você poderá acessar a aplicação em [](http://localhost:5500).
+Ao finalizar a operação você poderá acessar a aplicação em [http://localhost:5500](http://localhost:5500).
 
 ## 📲 Contatos
 
