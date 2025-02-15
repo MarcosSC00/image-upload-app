@@ -1,7 +1,7 @@
 # Image Upload App
 
 Aplicação desenvolvida para uploads de imagens (*.jpg, *.png ou *.gif).</br>
-Você pode acessá-la [aqui]().
+Você pode acessá-la [aqui](https://image-upload-app-two.vercel.app/).
 
 ## 🪄 Ferramentas
 
@@ -36,7 +36,7 @@ docker compose up
 >[!IMPORTANT]
 >Lembre de estar no diretório raiz do projeto ao executar o comando acima.
 >
-Ao finalizar a operação você poderá acessar a aplicação em []().
+Ao finalizar a operação você poderá acessar a aplicação em [](http://localhost:5500).
 
 ## 📲 Contatos
 
