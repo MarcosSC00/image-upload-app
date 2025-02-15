@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="shortcut icon" href="images/logo-small.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src="images/logo.svg" alt="">
+            <button class="dark-theme-button btn-theme">
+                <img src="images/Moon_fill.svg" alt="">
+            </button>
+            <button class="light-theme-button btn-theme">
+                <img src="images/Sun_fill.svg" alt="">
+            </button>
+        </nav>
+        <div class="upload-container">
+            <div class="upload-box" id="drop-area">
+                <img src="" alt="" id="image-preview">
+                <button class="btn-rm-img">
+                    X
+                </button>
+                <div class="content-upload">
+                    <img src="images/exit.svg" alt="">
+                    <p>Drag & drop a file or <label id="label" for="fileInput">browse files</label></p>
+                    <p>JPG, PNG or GIF - Max file size 2MB</p>
+                    <input type="file" id="fileInput" accept="image/png, image/jpg, image/gif">
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button>
+                <img src="images/Link.svg" alt="">
+                <span>Share</span>
+            </button>
+            <button id="btn-download">
+                <img src="images/download.svg" alt="">
+                <span>Download</span>
+            </button>
+        </div>
+        <div class="progress-container">
+            <p><span>Uploading</span>, please wait..</p>
+            <div class="progress-bar">
+                <div class="bar" />
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
